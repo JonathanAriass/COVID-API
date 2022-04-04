@@ -1,0 +1,88 @@
+package maven.test.mavenproject.logic;
+
+import java.io.UnsupportedEncodingException;
+import java.net.URLEncoder;
+import java.util.ArrayList;
+
+import org.apache.http.HttpEntity;
+
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.JsonMappingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.mashape.unirest.http.HttpResponse;
+import com.mashape.unirest.http.JsonNode;
+import com.mashape.unirest.http.Unirest;
+import com.mashape.unirest.http.exceptions.UnirestException;
+
+public class DataRequester {
+
+	private ArrayList<String> data;
+	private String country;
+	
+	public DataRequester(String country) {
+		data = new ArrayList<String>();
+		this.country = country;
+	}
+
+	public ArrayList<String> getData() {
+		return data;
+	}
+
+	public String getCountry() {
+		return country;
+	}
+	
+	public void requestData() throws UnsupportedEncodingException, UnirestException, JsonMappingException, JsonProcessingException {
+		String host_countries = "https://covid-193.p.rapidapi.com/countries";
+    	String charset = "UTF-8";
+    	String x_rapidapi_host = "covid-193.p.rapidapi.com";
+    	String x_rapidapi_key = "94a57ceeabmsh6b29b0504555851p1a3e79jsn3b145c3f27c5";
+    	
+    	
+    	String query = String.format("s=%s", URLEncoder.encode("tt0110912", charset));
+    	System.out.println(query);
+    	HttpResponse<JsonNode> response = Unirest.get(host_countries)
+    			.header("X-RapidAPI-Host", x_rapidapi_host)
+        		.header("X-RapidAPI-Key", x_rapidapi_key)
+    			.asJson();
+    	
+    	//HttpEntity entity = response.getEntity();
+    	
+    	var aux = response.getBody();
+    	
+    	JsonParser parse = new JsonParser();
+    	
+    	JSONObject jobj = parse
+    	
+    	System.out.println(aux);
+    	
+    	String typeVar = aux.getClass().getSimpleName();
+    	
+//    	final ObjectMapper objectMapper = new ObjectMapper();
+//    	Country[] countries = objectMapper.readValue(aux, Country[].class);
+//    	for (Country c : countries) {
+//    		System.out.println(c.toString());
+//    	}
+    	
+//    	System.out.println(typeVar);
+//    	System.out.println(aux);
+    	
+	}
+	
+	protected class Country {
+	
+		private String countryName;
+		
+		protected Country(String countryName) {
+			this.countryName = countryName;
+		}
+
+		@Override
+		public String toString() {
+			return "Country [countryName=" + countryName + "]";
+		}
+		
+	}
+	
+	
+}

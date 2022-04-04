@@ -1,0 +1,127 @@
+package maven.test.mavenproject.logic;
+
+import java.io.UnsupportedEncodingException;
+import java.net.URLEncoder;
+import java.util.ArrayList;
+
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.JsonMappingException;
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+import com.google.gson.JsonArray;
+import com.google.gson.JsonElement;
+import com.google.gson.JsonObject;
+import com.google.gson.JsonParser;
+import com.mashape.unirest.http.HttpResponse;
+import com.mashape.unirest.http.Unirest;
+import com.mashape.unirest.http.exceptions.UnirestException;
+
+
+/**
+ * Class where all data will be requested and stored
+ * 
+ * @author Arias
+ * @version 0.1
+ *
+ */
+public class DataRequester {
+
+	private ArrayList<String> data;
+	private String country;
+	private Country[] countries;
+	
+	public DataRequester(String country) {
+		data = new ArrayList<String>();
+		this.country = country;
+	}
+
+	public ArrayList<String> getData() {
+		return data;
+	}
+
+	public String getCountry() {
+		return country;
+	}
+	
+	public void requestDataCountries() throws UnsupportedEncodingException, UnirestException, JsonMappingException, JsonProcessingException {
+		// RapidAPI host URL
+		String host_countries = "https://covid-193.p.rapidapi.com/countries";
+    	// Charset for URLEncoder
+		String charset = "UTF-8";
+    	
+    	// RapidAPI host
+    	String x_rapidapi_host = "covid-193.p.rapidapi.com";
+    	
+    	// You should put your RapidAPI token in here
+    	String x_rapidapi_key = ""; 
+    	
+    	
+    	String query = String.format("s=%s", URLEncoder.encode("tt0110912", charset));
+    	System.out.println(query);
+    	HttpResponse<String> response = Unirest.get(host_countries)
+    			.header("X-RapidAPI-Host", x_rapidapi_host)
+        		.header("X-RapidAPI-Key", x_rapidapi_key)
+    			.asString();
+    	
+
+    	// Using Gson for getting the rigth format on Json
+    	Gson gson = new GsonBuilder().setPrettyPrinting().create();
+    	// Creating the Json parser
+    	JsonParser jp = new JsonParser();
+    	// Parsing the response body into a JsonElement
+    	JsonElement je = jp.parse(response.getBody().toString());
+    	// Prettifying with Gson to get a Json format String object
+      	String prettyJsonString = gson.toJson(je);
+    	
+    	// Parse json data into a json object
+    	JsonObject jobj = (JsonObject) jp.parse(prettyJsonString);
+    	
+    	// Get the part of response where the interesting data really is
+    	JsonArray jarr = (JsonArray) jobj.get("response");
+    	
+    	// Initialize the country array
+    	countries = new Country[jarr.size()];
+    	
+    	// Adding the countries from de the Json Array into the Country array
+    	for (int i = 0; i < jarr.size(); i++) {
+    		countries[i] = new Country(jarr.get(i).toString());
+    	}
+    	
+    	// Print countries from Country array
+    	printCountries();
+    	
+    	
+	}
+	
+	/**
+	 * Method that prints countries array
+	 */
+	private void printCountries() {
+		for (Country c : countries) {
+			System.out.println(c.toString());
+		}
+ 	}
+	
+	/**
+	 * Class that represent a Country by the name
+	 * 
+	 * @author arias
+	 * @version 0.1
+	 */
+	protected class Country {
+	
+		private String countryName;
+		
+		protected Country(String countryName) {
+			this.countryName = countryName;
+		}
+
+		@Override
+		public String toString() {
+			return "Country [countryName=" + countryName + "]";
+		}
+		
+	}
+	
+	
+}

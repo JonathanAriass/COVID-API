@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.mashape.unirest.http.Unirest"/>
+    <fullyQualifiedTypeName name="java.net.URLEncoder"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="maven.test.mavenproject.logic.DataRequester"/>
+    <fullyQualifiedTypeName name="kong.unirest.Unirest"/>
+    <fullyQualifiedTypeName name="com.mashape.unirest.http.JsonNode"/>
+    <fullyQualifiedTypeName name="com.mashape.unirest.http.ObjectMapper"/>
+    <fullyQualifiedTypeName name="com.fasterxml.jackson.databind.ObjectMapper"/>
+    <fullyQualifiedTypeName name="com.mashape.unirest.http.HttpResponse"/>
+    <fullyQualifiedTypeName name="org.apache.http.HttpEntity"/>
+</qualifiedTypeNameHistroy>

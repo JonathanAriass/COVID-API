@@ -1,0 +1,43 @@
+package maven.test.mavenproject;
+
+import java.net.URLEncoder;
+import com.mashape.unirest.http.HttpResponse;
+import com.mashape.unirest.http.JsonNode;
+import com.mashape.unirest.http.Unirest;
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+import com.google.gson.JsonElement;
+import com.google.gson.JsonParser;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args ) throws Exception
+    {
+
+    	String host2 = "https://imdb-data-searching.p.rapidapi.com/om";
+    	String charset = "UTF-8";
+    	String x_rapidapi_host = "imdb-data-searching.p.rapidapi.com";
+    	String x_rapidapi_key = "94a57ceeabmsh6b29b0504555851p1a3e79jsn3b145c3f27c5";
+    	
+    	String s = "Pulp";
+    	String query = String.format("s=%s", URLEncoder.encode(s, charset));
+    	
+    	
+    	HttpResponse <JsonNode> response = Unirest.get(host2 + "?" + query)
+    		      .header("x-rapidapi-host", x_rapidapi_host)
+    		      .header("x-rapidapi-key", x_rapidapi_key)
+    		      .asJson();
+    	System.out.println(response.getStatus());
+        System.out.println(response.getHeaders().get("Content-Type"));
+    		      
+    		      
+    	// Using GSON (pasar de las lineas de JSON a lineas normal de ob de JAVA)
+        String i = "tt0110912";
+        query = Strinf.format("i=%s", URLEncoder.encode(i, charset));
+        
+    }
+}

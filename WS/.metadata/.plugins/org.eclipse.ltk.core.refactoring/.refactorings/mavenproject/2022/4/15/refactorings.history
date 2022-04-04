@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move package &apos;maven.test.mavenproject.logic&apos; to &apos;mavenproject/src/main/java/maven.test.mavenproject&apos;&#x0A;- Original project: &apos;mavenproject&apos;&#x0A;- Destination element: &apos;mavenproject/src/main/java/maven.test.mavenproject&apos;&#x0A;- Original element: &apos;mavenproject/src/test/java/maven.test.mavenproject.logic&apos;&#x0A;- Update references to refactored element" description="Move package" destination="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;maven.test.mavenproject" element1="/src\/test\/java=/test=/true=/=/optional=/true=/=/maven.pomderived=/true=/&lt;maven.test.mavenproject.logic" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1649018545624" version="1.0"/>
+</session>
