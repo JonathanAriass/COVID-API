@@ -1,0 +1,5 @@
+package maven.test.mavenproject.logic;
+
+public class Country {
+
+}
