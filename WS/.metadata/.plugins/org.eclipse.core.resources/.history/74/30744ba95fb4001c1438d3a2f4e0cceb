@@ -2,7 +2,6 @@ package maven.test.mavenproject.logic;
 
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
-import java.util.HashMap;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -26,7 +25,6 @@ public class DataRequester {
 
 	private String country;
 	private Country[] countries;
-	private HashMap<Country, Integer> cases;
 	
 	/**
 	 * Constructor of the DataRequester object
@@ -109,27 +107,8 @@ public class DataRequester {
     	
     	// Print countries from Country array
     	printCountries();
-	}
-	
-	public void requestCases() throws UnsupportedEncodingException, UnirestException {
-		// RapidAPI host URL
-		String host_countries = "https://covid-193.p.rapidapi.com/countries";
-		// Charset for URLEncoder
-		String charset = "UTF-8";
-		    	
-		// RapidAPI host
-		String x_rapidapi_host = "covid-193.p.rapidapi.com";
-		    	
-    	// You should put your RapidAPI token in here
-		String x_rapidapi_key = ""; 
-		    	    	
-		String query = String.format("s=%s", URLEncoder.encode("tt0110912", charset));
-		System.out.println(query);
-		HttpResponse<String> response = Unirest.get(host_countries)
-				.header("X-RapidAPI-Host", x_rapidapi_host)
-				.header("X-RapidAPI-Key", x_rapidapi_key)
-				.asString();
-		
+    	
+    	
 	}
 	
 	/**

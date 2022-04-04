@@ -2,7 +2,6 @@ package maven.test.mavenproject.logic;
 
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
-import java.util.HashMap;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -26,7 +25,6 @@ public class DataRequester {
 
 	private String country;
 	private Country[] countries;
-	private HashMap<Country, Integer> cases;
 	
 	/**
 	 * Constructor of the DataRequester object
@@ -111,7 +109,7 @@ public class DataRequester {
     	printCountries();
 	}
 	
-	public void requestCases() throws UnsupportedEncodingException, UnirestException {
+	public void requestCases() {
 		// RapidAPI host URL
 		String host_countries = "https://covid-193.p.rapidapi.com/countries";
 		// Charset for URLEncoder
@@ -129,7 +127,6 @@ public class DataRequester {
 				.header("X-RapidAPI-Host", x_rapidapi_host)
 				.header("X-RapidAPI-Key", x_rapidapi_key)
 				.asString();
-		
 	}
 	
 	/**

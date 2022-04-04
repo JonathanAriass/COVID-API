@@ -1649,3 +1649,61 @@
 2022-04-04 14:14:16,242 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arias/Desktop/Proyecto_APIs/WS/mavenproject/src/main/resources
 2022-04-04 14:14:16,244 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-04-04 14:14:16,244 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arias/Desktop/Proyecto_APIs/WS/mavenproject/src/test/resources
+2022-04-04 23:33:15,340 [Worker-8: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-04-04 23:33:16,948 [Worker-9: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: maven.test:mavenproject:0.0.1-SNAPSHOT @ /home/arias/Desktop/Proyecto_APIs/COVID-API/WS/mavenproject/pom.xml.
+2022-04-04 23:33:17,157 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 23:33:17,158 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arias/Desktop/Proyecto_APIs/COVID-API/WS/mavenproject/src/main/resources
+2022-04-04 23:33:17,160 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 23:33:17,160 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arias/Desktop/Proyecto_APIs/COVID-API/WS/mavenproject/src/test/resources
+2022-04-04 23:39:09,891 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 23:39:09,891 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arias/Desktop/Proyecto_APIs/COVID-API/WS/mavenproject/src/main/resources
+2022-04-04 23:39:09,892 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 23:39:09,893 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arias/Desktop/Proyecto_APIs/COVID-API/WS/mavenproject/src/test/resources
+2022-04-04 23:39:26,819 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 23:39:26,820 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arias/Desktop/Proyecto_APIs/COVID-API/WS/mavenproject/src/main/resources
+2022-04-04 23:39:26,821 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 23:39:26,821 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arias/Desktop/Proyecto_APIs/COVID-API/WS/mavenproject/src/test/resources
+2022-04-04 23:39:35,375 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 23:39:35,375 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arias/Desktop/Proyecto_APIs/COVID-API/WS/mavenproject/src/main/resources
+2022-04-04 23:39:35,376 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 23:39:35,376 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arias/Desktop/Proyecto_APIs/COVID-API/WS/mavenproject/src/test/resources
+2022-04-04 23:39:51,571 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 23:39:51,571 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arias/Desktop/Proyecto_APIs/COVID-API/WS/mavenproject/src/main/resources
+2022-04-04 23:39:51,572 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 23:39:51,572 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arias/Desktop/Proyecto_APIs/COVID-API/WS/mavenproject/src/test/resources
+2022-04-04 23:40:15,800 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 23:40:15,800 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arias/Desktop/Proyecto_APIs/COVID-API/WS/mavenproject/src/main/resources
+2022-04-04 23:40:15,802 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 23:40:15,802 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arias/Desktop/Proyecto_APIs/COVID-API/WS/mavenproject/src/test/resources
+2022-04-04 23:40:18,326 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 23:40:18,326 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arias/Desktop/Proyecto_APIs/COVID-API/WS/mavenproject/src/main/resources
+2022-04-04 23:40:18,327 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 23:40:18,327 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arias/Desktop/Proyecto_APIs/COVID-API/WS/mavenproject/src/test/resources
+2022-04-04 23:40:26,178 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 23:40:26,178 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arias/Desktop/Proyecto_APIs/COVID-API/WS/mavenproject/src/main/resources
+2022-04-04 23:40:26,179 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 23:40:26,179 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arias/Desktop/Proyecto_APIs/COVID-API/WS/mavenproject/src/test/resources
+2022-04-04 23:40:56,368 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 23:40:56,368 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arias/Desktop/Proyecto_APIs/COVID-API/WS/mavenproject/src/main/resources
+2022-04-04 23:40:56,369 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 23:40:56,369 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arias/Desktop/Proyecto_APIs/COVID-API/WS/mavenproject/src/test/resources
+2022-04-04 23:41:09,208 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 23:41:09,208 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arias/Desktop/Proyecto_APIs/COVID-API/WS/mavenproject/src/main/resources
+2022-04-04 23:41:09,209 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 23:41:09,209 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arias/Desktop/Proyecto_APIs/COVID-API/WS/mavenproject/src/test/resources
+2022-04-04 23:41:14,351 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 23:41:14,351 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arias/Desktop/Proyecto_APIs/COVID-API/WS/mavenproject/src/main/resources
+2022-04-04 23:41:14,352 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 23:41:14,352 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arias/Desktop/Proyecto_APIs/COVID-API/WS/mavenproject/src/test/resources
+2022-04-04 23:41:35,344 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 23:41:35,344 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arias/Desktop/Proyecto_APIs/COVID-API/WS/mavenproject/src/main/resources
+2022-04-04 23:41:35,345 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 23:41:35,345 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arias/Desktop/Proyecto_APIs/COVID-API/WS/mavenproject/src/test/resources
+2022-04-04 23:41:38,453 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 23:41:38,453 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arias/Desktop/Proyecto_APIs/COVID-API/WS/mavenproject/src/main/resources
+2022-04-04 23:41:38,454 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 23:41:38,454 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arias/Desktop/Proyecto_APIs/COVID-API/WS/mavenproject/src/test/resources
+2022-04-04 23:43:16,332 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 23:43:16,333 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arias/Desktop/Proyecto_APIs/COVID-API/WS/mavenproject/src/main/resources
+2022-04-04 23:43:16,333 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-04 23:43:16,333 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arias/Desktop/Proyecto_APIs/COVID-API/WS/mavenproject/src/test/resources

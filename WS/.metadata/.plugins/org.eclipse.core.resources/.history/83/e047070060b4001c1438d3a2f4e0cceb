@@ -26,7 +26,7 @@ public class DataRequester {
 
 	private String country;
 	private Country[] countries;
-	private HashMap<Country, Integer> cases;
+	private HashMap<Country, int> cases;
 	
 	/**
 	 * Constructor of the DataRequester object

@@ -2,7 +2,6 @@ package maven.test.mavenproject.logic;
 
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
-import java.util.HashMap;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -26,7 +25,7 @@ public class DataRequester {
 
 	private String country;
 	private Country[] countries;
-	private HashMap<Country, Integer> cases;
+	private 
 	
 	/**
 	 * Constructor of the DataRequester object
